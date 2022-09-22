@@ -25,7 +25,7 @@ const SubNav = ({openNav, setOpenNav}) => {
         <div ref={wrapperRef} className={openNav ? styles.sideNavOpen : styles.sideNavClosed}>
             <div className={styles.navData}>
                 <div className={styles.navBtnContainer}>
-                    <button>Book Now</button>
+                    <button><Link to='/book-now'>Book Now</Link></button>
                 </div>
                 <div className={styles.navOptions}>
                     <ul>

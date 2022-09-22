@@ -92,3 +92,7 @@
 .navOptions a {
     text-decoration: none;
 }
+.navBtnContainer a {
+    text-decoration: none;
+    color: white;
+}
