@@ -1,0 +1,76 @@
+.singlePackage {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.packageName {
+    background-color: #1F6BFF;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 5%;
+    width: 30%;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    z-index: 100;
+}
+.packageInfo {
+    background: #1F6BFF;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 15px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10% 0%;
+    padding-bottom: 0%;
+    margin-top: -7%;
+}
+.currentSlide {
+    background: white;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 15px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: black;
+    padding: 10% 0%;
+    padding-bottom: 0%;
+    margin-top: -7%;
+}
+.packageInfo p,
+.currentSlide p {
+    padding: 3% 5%;
+}
+.packageInfo .packagePrice,
+.currentSlide .packagePrice {
+    border-top: 1px solid white;
+    color: white !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 30px;
+    background-color: #1F6BFF !important;
+}

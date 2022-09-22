@@ -65,3 +65,28 @@
 
     color: #000000;
 }
+.contactArea {
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 25%;
+}
+.contactArea p {
+    margin-top: 0;
+    text-align: left;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #000000;
+}
+.contactArea button {
+    margin-top: 22%;
+    width: 90%;
+    padding: 8% 10% !important;
+}
+.allPackages {
+    background-color: #F5F5F5;
+    padding: 5% 0%;
+}

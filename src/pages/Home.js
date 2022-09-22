@@ -11,6 +11,7 @@ import eye from '../resources/images/eye.svg';
 import cold from '../resources/images/cold.svg';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import homeImage from '../resources/images/homeHeader.svg';
 
 const Home = () => {
 
@@ -67,7 +68,7 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <Navbar/>
-      <Header/>
+      <Header image={homeImage}/>
       <SubHeader/>
       <h3>6 Reasons To Tint Your Windows</h3>
       <ListComponent listData={list}/>

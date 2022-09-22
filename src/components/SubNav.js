@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import styles from '../resources/styles/navbar.module.css';
+import { Link } from 'react-router-dom';
 
 function useOutsideAlerter(ref, setOpenNav) {
     useEffect(() => {
@@ -28,9 +29,9 @@ const SubNav = ({openNav, setOpenNav}) => {
                 </div>
                 <div className={styles.navOptions}>
                     <ul>
-                        <li><p>Home</p></li>
-                        <li><p>Client Platform</p></li>
-                        <li><p>Service Platform</p></li>
+                        <li><Link to='/'><p>Home</p></Link></li>
+                        <li><Link to='/about-client'><p>Client Platform</p></Link></li>
+                        <li><Link to='/about-service'><p>Service Platform</p></Link></li>
                         <br/>
                         <li><p>Log In</p></li>
                     </ul>
