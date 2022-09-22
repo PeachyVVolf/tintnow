@@ -1,0 +1,67 @@
+.home h3 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10%;
+    color: #000000;
+}
+.questionSection {
+    background-color: #F6F9FE;
+    padding: 5% 0%;
+    margin: 10% 0%;
+    padding-bottom: 15%;
+}
+.home h1 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 10% 7%;
+}
+.home button {
+    background: #1F6BFF;
+    border-radius: 5px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 4% 10%;
+    width: 60%;
+    border: none;
+}
+.home h2 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 15%;
+}
+.aboutSection {
+    margin: 5% 0%;
+}
+.aboutSection h4 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}

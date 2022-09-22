@@ -1,0 +1,32 @@
+.listComponent {
+    margin: 2% 5%;
+}
+.listComponent ul{
+    list-style: none;
+    padding: 0%;
+}
+.listComponent ul li {
+    display: flex;
+    flex-direction: row;
+}
+.listComponent ul li p {
+    width: 80%;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-align: left;
+}
+.listComponent ul li img {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: #1F6BFF;
+    padding: 3%;
+    border-radius: 50px;
+    margin-left: 2%;
+    margin-right: 5%;
+}

@@ -1,0 +1,92 @@
+.navbar {
+    position: absolute;
+    top: 2%;
+    /* left: 4%; */
+    font-size: 35px;
+    color: white;
+    width: 100%;
+}
+.navbar > svg {
+    align-items: start;
+    display: flex;
+    margin-left: 5%;
+}
+.sideNavOpen {
+    position: fixed;
+    top: 0%;
+    width: 70%;
+    background-color: white;
+    text-align: left;
+    height: 100vh;
+    z-index: 1000;
+    animation: slideNavRight 1s normal;
+}
+.sideNavClosed {
+    position: fixed;
+    top: 0%;
+    width: 70%;
+    background-color: white;
+    text-align: left;
+    height: 100vh;
+    z-index: 1000;
+    animation: slideNavLeft 1s normal;
+    visibility: hidden;
+}
+@keyframes slideNavRight {
+    0% {
+        display: none;
+        left: -100%;
+    }
+    1% {
+        display: flex;
+    }
+    100% {
+        display: flex;
+        left: 0%;
+    }
+}
+@keyframes slideNavLeft {
+    0% {
+        left: 0%;
+        visibility: visible;
+    }
+    99% {
+        left: -100%;
+    }
+    100% {
+        display: none;
+        visibility: hidden;
+        left: -100%;
+    }
+}
+.sideNavOpen svg {
+    color: black;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+.navData {
+    margin-left: auto;
+}
+.navBtnContainer {
+    margin: 10% 0%;
+    background-color: #F6F9FE;
+    width: 100%;
+    padding: 15% 0%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.navOptions ul {
+    list-style: none;
+}
+.navOptions p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+
+    color: #000000;
+}

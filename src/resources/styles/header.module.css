@@ -1,0 +1,26 @@
+.header img {
+    width: 100%;
+    object-fit: cover;
+}
+.subHeader img {
+    width: 100%;
+    object-fit: cover;
+}
+.subHeader > div {
+    position: relative;
+}
+.subHeader p {
+    bottom: 10%;
+    font-family: 'Proxima Nova';
+    display: flex;
+    position: absolute;
+    width: 100%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin: 0% auto;
+}
