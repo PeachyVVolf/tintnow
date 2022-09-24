@@ -67,7 +67,7 @@ const Home = () => {
 
   return (
     <div className={styles.home}>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Header image={homeImage}/>
       <SubHeader/>
       <h3>6 Reasons To Tint Your Windows</h3>

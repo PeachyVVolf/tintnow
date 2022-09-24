@@ -61,7 +61,7 @@ const AboutService = () => {
 
     return (
         <div className={styles.home}>
-            <Navbar/>
+            {/* <Navbar/> */}
             <Header image={aboutImage}/>
             <h3>Lead Generator</h3>
             <ListComponent listData={list}/>

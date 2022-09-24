@@ -55,7 +55,7 @@ const AboutClient = () => {
 
     return (
         <div className={styles.home}>
-            <Navbar/>
+            {/* <Navbar/> */}
             <Header image={aboutImage}/>
             <h3>Advantages</h3>
             <ListComponent listData={list}/>

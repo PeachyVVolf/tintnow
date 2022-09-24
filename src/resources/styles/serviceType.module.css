@@ -1,0 +1,25 @@
+.serviceType > h4 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.serviceType p {
+    background: #F6F9FE;
+    border-radius: 22px;
+    margin: 5%;
+    padding: 3%;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
